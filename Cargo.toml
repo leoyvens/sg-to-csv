@@ -1,0 +1,17 @@
+[package]
+name = "sg-to-csv"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-postgres = "0.7"
+opendal = "0.42"
+futures = "0.3"
+dotenv = "0.15"
+bytes = "1.5.0"
+anyhow = "1.0.75"
+async-compression = { version = "0.4.5", features = ["futures-io", "gzip"] }
+futures-util = "0.3.29"
+tokio-util = { version = "0.7.10", features = ["compat"] }
+clap = { version = "3.0", features = ["derive", "env"] }
