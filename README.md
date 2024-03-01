@@ -1,1 +1,1 @@
-`sg-to-csv --database-url <DATABASE_URL> <SCHEMA>`
+`cargo run --database-url <DATABASE_URL> <SCHEMA>`
